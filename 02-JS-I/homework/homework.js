@@ -173,7 +173,7 @@ function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
   return(
-    Math.round(Math.random(2))
+    Math.floor(Math.random() + 0.5)
   )
 }
 
@@ -267,7 +267,7 @@ function esVocal(letra){
   //que no se puede procesar el dato mediante el mensaje "Dato incorrecto".
   // Si no es vocal, tambien debe devolver "Dato incorrecto".
   //Escribe tu código aquí
-  if ((("a"),("e"),("i"),("o"),("u"),("A"),("E"),("I"),("O"),("U")) == letra){
+  if (letra == "a" || letra == "e" || letra == "i" || letra == "o" || letra == "u"){
     return (
       "Es vocal"
     )
