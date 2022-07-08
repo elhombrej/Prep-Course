@@ -147,7 +147,7 @@ function elevarAlCuadrado(num) {
 function elevarAlCubo(num) {
   // Devuelve el valor de "num" elevado al cubo
   // Tu código:
-  num = Math.pow(num,3)
+  Math.pow(num,3)
   return{
     num
   }
@@ -174,8 +174,9 @@ function redondearHaciaArriba(num) {
 function numeroRandom() {
   //Generar un número al azar entre 0 y 1 y devolverlo
   //Pista: investigá qué hace el método Math.random()
-  return
+  return(
     Math.round(Math.random())
+  )
 }
 
 function esPositivo(numero) {
