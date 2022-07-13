@@ -132,7 +132,7 @@ function multiplicarArgumentos() {
   }
   else if(arguments.length > 0){
     for(i=0; i< arguments.length;i++){
-    multiplo = arguments[i] * arguments[i];
+    multiplo = multiplo * arguments[i];
   }
 }
   return multiplo
