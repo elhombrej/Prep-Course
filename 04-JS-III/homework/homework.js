@@ -225,7 +225,7 @@ function mayorACien(array) {
     }
   } 
   return arreglo
-}
+} 
 
 
 function breakStatement(numero) {
